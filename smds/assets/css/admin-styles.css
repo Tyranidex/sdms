@@ -1,0 +1,16 @@
+/*FILE TYPE IMAGE*/
+.smds-file-type-image-options{
+    width:100%;
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap:20px;
+}
+.smds-file-type-image-options label{
+    padding:10px;
+    cursor:pointer;
+    border:1px solid lightgray;
+    border-radius:10px;
+}
+.smds-file-type-image-options label img{
+    margin:10px auto;
+}
